@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "sunlesssea",
+  "version": "${version}",
+  "name": "sunlesssea",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/eleph/sunlesssea"
+  },
+  "license": "MIT",
+  "icon": "assets/sunlesssea/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "bungus.sunlesssea.client.SunlessseaClient"
+    ],
+    "main": [
+      "bungus.sunlesssea.Sunlesssea"
+    ]
+  },
+  "mixins": [
+    "sunlesssea.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
