@@ -1,0 +1,84 @@
+{
+  "type": "sunlesssea:sunless_sea_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "sunlesssea:sunless_sea_noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "sunlesssea:pale_beaches",
+          "parameters": {
+            "temperature": [
+              -2,
+              2
+            ],
+            "humidity": [
+              -2,
+              2
+            ],
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": -0.9,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "sunlesssea:abyss",
+          "parameters": {
+            "temperature": [
+              -2,
+              2
+            ],
+            "humidity": [
+              -2,
+              2
+            ],
+            "continentalness": -2,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "sunlesssea:magnesium_dunes",
+          "parameters": {
+            "temperature": [
+              0.1,
+              0.5
+            ],
+            "humidity": [
+              -1,
+              -0.5
+            ],
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "sunlesssea:sulphur_pools",
+          "parameters": {
+            "temperature": [
+              0.5,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.5
+            ],
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

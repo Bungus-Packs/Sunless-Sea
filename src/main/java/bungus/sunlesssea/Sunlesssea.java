@@ -1,5 +1,7 @@
 package bungus.sunlesssea;
 
+import bungus.sunlesssea.world.dimension.ModDimensionEffects;
+import bungus.sunlesssea.world.dimension.ModDimensions;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,5 +13,9 @@ public class Sunlesssea implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("Initializing "+MOD_ID);
+
+        LOGGER.info("Registering Dimensions for "+MOD_ID);
+        ModDimensions.register();
+        ModDimensionEffects.register();
     }
 }
