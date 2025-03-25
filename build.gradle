@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.6-SNAPSHOT'
+    id 'fabric-loom' version '1.7-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -26,8 +26,9 @@ repositories {
 
 // the repository for Cloth Config
     maven { url 'https://maven.shedaniel.me' }
-}
 
+    
+}
 dependencies {
     // To change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
@@ -49,6 +50,13 @@ dependencies {
     modImplementation ("com.github.iPortalTeam.ImmersivePortalsMod:build:v3.3.9-mc1.20.1")
 
     implementation("com.google.guava:guava:33.4.5-jre")
+    modImplementation("com.github.Bungus-Packs:Bungus-Lib:v0.0.1.2")
+    
+    //dist
+    //modImplementation("maven.modrinth:uCdwusMi:nVT5sVYS")
+    
+
+    
 }
 
 processResources {

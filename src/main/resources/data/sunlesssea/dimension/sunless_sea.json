@@ -2,7 +2,7 @@
   "type": "sunlesssea:sunless_sea_type",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "sunlesssea:sunless_sea_test",
+    "settings": "sunlesssea:sunlesssea_noise",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [

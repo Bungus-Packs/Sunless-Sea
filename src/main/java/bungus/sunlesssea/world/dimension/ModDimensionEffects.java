@@ -7,9 +7,9 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Vec3d;
 
 public class ModDimensionEffects {
-    public static void register(){
-        DimensionRenderingRegistry.registerDimensionEffects(new Identifier(Sunlesssea.MOD_ID,"sunless_sea_effects"),
-                new DimensionEffects(224,false, DimensionEffects.SkyType.NONE,false,false){
+    public static void register() {
+        DimensionRenderingRegistry.registerDimensionEffects(new Identifier(Sunlesssea.MOD_ID, "sunless_sea_effects"),
+                new DimensionEffects(224, false, DimensionEffects.SkyType.NONE, false, false) {
                     @Override
                     public Vec3d adjustFogColor(Vec3d color, float sunHeight) {
                         return color.multiply(0.15f);

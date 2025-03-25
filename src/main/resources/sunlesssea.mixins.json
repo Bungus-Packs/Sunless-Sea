@@ -4,7 +4,6 @@
   "package": "bungus.sunlesssea.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "NoiseChunkGeneratorMixin_LavaYeeter"
   ],
   "client": [
   ],
